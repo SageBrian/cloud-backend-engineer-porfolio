@@ -13,47 +13,27 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'CloudSync Platform',
-    description: 'Real-time data synchronization platform for distributed systems with auto-scaling infrastructure',
-    techs: ['Node.js', 'React', 'Docker', 'Kubernetes', 'PostgreSQL'],
-    github: '#',
-    live: '#',
+    title: 'terraform aws autoscaling template',
+    description: 'The infrastructure uses an Application Load Balancer, EC2 Launch Templates, an Auto Scaling Group, CloudWatch alarms, IAM, security groups, and a multi-AZ VPC.',
+    techs: ['Terraform', 'AWS', 'EC2', 'Auto Scaling'],
+    github: 'https://github.com/SageBrian/cloud-backend-engineer-porfolio',
+    //live: '#',
+  },
+  {                                                       
+    title: 'CI-CD-project',
+    description: 'A production-style CI/CD pipeline on AWS, fully provisioned with Terraform.',
+    techs: ['CI/CD', 'github actions', 'AWS', 'terraform'],
+    github: 'https://github.com/SageBrian/CI-CD-project',
+    //live: '#',
   },
   {
-    title: 'AI Analytics Dashboard',
-    description: 'ML-powered analytics dashboard with real-time data processing and predictive insights',
-    techs: ['Next.js', 'Python', 'TensorFlow', 'AWS', 'Redis'],
-    github: '#',
-    live: '#',
+    title: 'Event driven generator',
+    description: 'An enterprise-ready, serverless ingestion pipeline built on AWS using Terraform (Infrastructure as Code). This system automatically processes raw business data uploads (.csv) in real-time, generates analytical summaries, and stores them securely in an optimized downstream storage tier.',
+    techs: ['Terraform', 'GitHub Actions', 'python', 'lambda', 'boto3'],
+    github: 'https://github.com/SageBrian/Event-driven-report-generator',
+    //live: '#',
   },
-  {
-    title: 'DevOps Automation Suite',
-    description: 'Comprehensive infrastructure automation toolkit for CI/CD pipeline management and monitoring',
-    techs: ['Terraform', 'GitHub Actions', 'Go', 'Prometheus', 'Grafana'],
-    github: '#',
-    live: '#',
-  },
-  {
-    title: 'Microservices Gateway',
-    description: 'High-performance API gateway with load balancing, caching, and service mesh integration',
-    techs: ['Rust', 'gRPC', 'Docker', 'Istio', 'PostgreSQL'],
-    github: '#',
-    live: '#',
-  },
-  {
-    title: 'Real-time Chat System',
-    description: 'Scalable messaging platform with WebSocket support and end-to-end encryption',
-    techs: ['Socket.io', 'React', 'Node.js', 'MongoDB', 'Redis'],
-    github: '#',
-    live: '#',
-  },
-  {
-    title: 'Infrastructure Monitor',
-    description: 'Enterprise monitoring solution with custom metrics, alerts, and performance analytics',
-    techs: ['TypeScript', 'Vue.js', 'Kubernetes', 'Prometheus', 'InfluxDB'],
-    github: '#',
-    live: '#',
-  },
+  
 ]
 
 export function Projects() {
